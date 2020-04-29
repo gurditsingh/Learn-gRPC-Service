@@ -1,10 +1,8 @@
-package learn.grpc.proto.code.server;
+package learn.grpc.server;
 
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
-import learn.grpc.proto.code.service.GreetingService;
-
-import java.io.File;
+import learn.grpc.service.GreetingService;
 
 public class GreetingServer {
 

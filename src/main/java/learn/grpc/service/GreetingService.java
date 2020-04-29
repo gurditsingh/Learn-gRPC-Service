@@ -1,4 +1,4 @@
-package learn.grpc.proto.code.service;
+package learn.grpc.service;
 
 import io.grpc.stub.StreamObserver;
 import learn.grpc.proto.code.GreetingGrpc;
