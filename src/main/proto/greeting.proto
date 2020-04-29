@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "learn.grpc";
+option java_package = "learn.grpc.proto.code";
 
 service Greeting{
     rpc sayHello(APIRequest)  returns (APIResponse);
