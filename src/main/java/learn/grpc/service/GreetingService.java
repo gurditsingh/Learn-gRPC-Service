@@ -7,7 +7,8 @@ import learn.grpc.proto.code.GreetingOuterClass;
 public class GreetingService extends GreetingGrpc.GreetingImplBase {
 
     @Override
-    public void sayHello(GreetingOuterClass.APIRequest request, StreamObserver<GreetingOuterClass.APIResponse> responseObserver) {
+    public void sayHello(GreetingOuterClass.APIRequest request,
+                         StreamObserver<GreetingOuterClass.APIResponse> responseObserver) {
 
         System.out.println("say hello API call");
 

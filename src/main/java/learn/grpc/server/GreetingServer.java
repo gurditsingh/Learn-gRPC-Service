@@ -21,7 +21,7 @@ public class GreetingServer {
 
 
     private void start() throws Exception {
-        final int port = 9000;
+        final int port = 1313;
 
         server=ServerBuilder.forPort(port)
                 .addService(new GreetingService())
